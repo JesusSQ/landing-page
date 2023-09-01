@@ -56,7 +56,7 @@ img {
     color: #f9faf8;
 }
 
-a, .right-hero .text {
+a, .text {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -94,12 +94,16 @@ a, .right-hero .text {
     width: 400px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 12px;
     padding: 12px;
+    margin: 10px;
 }
 
 .info-description {
     font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
 }
 
 .quote-part {
@@ -156,4 +160,12 @@ a, .right-hero .text {
 
 .text-su {
     font-size: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    padding: 32px;
 }
