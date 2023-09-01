@@ -98,3 +98,25 @@ a, .right-hero .text {
 .info-description {
     font-size: 18px;
 }
+
+.quote-part {
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 240px;
+    gap: 16px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-bold{
+    font-size: 22px;
+    font-weight: 900;
+    align-self: flex-end;
+}
